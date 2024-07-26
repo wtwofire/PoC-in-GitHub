@@ -1914,7 +1914,6 @@
 
 - [HexDoesRandomShit/ClearML-vulnerability-exploit-RCE-2024-CVE-2024-24590-](https://github.com/HexDoesRandomShit/ClearML-vulnerability-exploit-RCE-2024-CVE-2024-24590-)
 - [OxyDeV2/ClearML-CVE-2024-24590](https://github.com/OxyDeV2/ClearML-CVE-2024-24590)
-- [DemonPandaz2763/CVE-2024-24590](https://github.com/DemonPandaz2763/CVE-2024-24590)
 - [xffsec/CVE-2024-24590-ClearML-RCE-Exploit](https://github.com/xffsec/CVE-2024-24590-ClearML-RCE-Exploit)
 - [diegogarciayala/CVE-2024-24590-ClearML-RCE-CMD-POC](https://github.com/diegogarciayala/CVE-2024-24590-ClearML-RCE-CMD-POC)
 - [junnythemarksman/CVE-2024-24590](https://github.com/junnythemarksman/CVE-2024-24590)
@@ -3094,7 +3093,6 @@
 - [bughuntar/CVE-2024-34102](https://github.com/bughuntar/CVE-2024-34102)
 - [bughuntar/CVE-2024-34102-Python](https://github.com/bughuntar/CVE-2024-34102-Python)
 - [Phantom-IN/CVE-2024-34102](https://github.com/Phantom-IN/CVE-2024-34102)
-- [ex-ARnX/CVE-2024-34102-PoC](https://github.com/ex-ARnX/CVE-2024-34102-PoC)
 
 ### CVE-2024-34220 (-)
 
@@ -3534,7 +3532,7 @@
 
 ### CVE-2024-39031 (2024-07-09)
 
-<code>In Silverpeas Core &lt;= 6.3.5, inside of mes agendas a user can create a new event and add it to his calendar. The user can also add other users to the event from the same domain, including administrator. A normal user can create an event with XSS payload inside “Titre” and “Description” parameters and add the administrator or any user to the event. When the other user (victim) visits his own profile (even without clicking on the event) the payload will be executed on the victim side.
+<code>In Silverpeas Core &lt;= 6.3.5, in Mes Agendas, a user can create new events and add them to their calendar. Additionally, users can invite others from the same domain, including administrators, to these events. A standard user can inject an XSS payload into the &quot;Titre&quot; and &quot;Description&quot; fields when creating an event and then add the administrator or any user to the event. When the invited user (victim) views their own profile, the payload will be executed on their side, even if they do not click on the event.
 </code>
 
 - [toneemarqus/CVE-2024-39031](https://github.com/toneemarqus/CVE-2024-39031)
@@ -3624,6 +3622,20 @@
 
 - [sudo-subho/nepstech-xpon-router-CVE-2024-40119](https://github.com/sudo-subho/nepstech-xpon-router-CVE-2024-40119)
 
+### CVE-2024-40318 (2024-07-25)
+
+<code>An arbitrary file upload vulnerability in Webkul Qloapps v1.6.0.0 allows attackers to execute arbitrary code via uploading a crafted file.
+</code>
+
+- [3v1lC0d3/RCE-QloApps-CVE-2024-40318](https://github.com/3v1lC0d3/RCE-QloApps-CVE-2024-40318)
+
+### CVE-2024-40324 (2024-07-25)
+
+<code>A CRLF injection vulnerability in E-Staff v5.1 allows attackers to insert Carriage Return (CR) and Line Feed (LF) characters into input fields, leading to HTTP response splitting and header manipulation.
+</code>
+
+- [aleksey-vi/CVE-2024-40324](https://github.com/aleksey-vi/CVE-2024-40324)
+
 ### CVE-2024-40348 (2024-07-20)
 
 <code>An issue in the component /api/swaggerui/static of Bazaar v1.4.3 allows unauthenticated attackers to execute a directory traversal.
@@ -3679,6 +3691,13 @@
 </code>
 
 - [d0rb/CVE-2024-41107](https://github.com/d0rb/CVE-2024-41107)
+
+### CVE-2024-41110 (2024-07-24)
+
+<code>Moby is an open-source project created by Docker for software containerization. A security vulnerability has been detected in certain versions of Docker Engine, which could allow an attacker to bypass authorization plugins (AuthZ) under specific circumstances. The base likelihood of this being exploited is low.\n\nUsing a specially-crafted API request, an Engine API client could make the daemon forward the request or response to an authorization plugin without the body. In certain circumstances, the authorization plugin may allow a request which it would have otherwise denied if the body had been forwarded to it.\n\nA security issue was discovered In 2018, where an attacker could bypass AuthZ plugins using a specially crafted API request. This could lead to unauthorized actions, including privilege escalation. Although this issue was fixed in Docker Engine v18.09.1 in January 2019, the fix was not carried forward to later major versions, resulting in a regression. Anyone who depends on authorization plugins that introspect the request and/or response body to make access control decisions is potentially impacted.\n\nDocker EE v19.03.x and all versions of Mirantis Container Runtime are not vulnerable.\n\ndocker-ce v27.1.1 containes patches to fix the vulnerability. Patches have also been merged into the master, 19.0, 20.0, 23.0, 24.0, 25.0, 26.0, and 26.1 release branches. If one is unable to upgrade immediately, avoid using AuthZ plugins and/or restrict access to the Docker API to trusted parties, following the principle of least privilege.
+</code>
+
+- [vvpoglazov/cve-2024-41110-checker](https://github.com/vvpoglazov/cve-2024-41110-checker)
 
 ### CVE-2024-41662 (2024-07-24)
 
@@ -5117,6 +5136,7 @@
 - [Trackflaw/CVE-2023-7028-Docker](https://github.com/Trackflaw/CVE-2023-7028-Docker)
 - [mochammadrafi/CVE-2023-7028](https://github.com/mochammadrafi/CVE-2023-7028)
 - [hackeremmen/gitlab-exploit](https://github.com/hackeremmen/gitlab-exploit)
+- [soltanali0/CVE-2023-7028](https://github.com/soltanali0/CVE-2023-7028)
 
 ### CVE-2023-7172 (2023-12-30)
 
@@ -12609,6 +12629,7 @@
 </code>
 
 - [veritas501/CVE-2022-3910](https://github.com/veritas501/CVE-2022-3910)
+- [TLD1027/CVE-2022-3910](https://github.com/TLD1027/CVE-2022-3910)
 
 ### CVE-2022-3942 (2022-11-11)
 
@@ -27351,6 +27372,13 @@
 </code>
 
 - [john-dooe/CVE-2020-9472](https://github.com/john-dooe/CVE-2020-9472)
+
+### CVE-2020-9480 (2020-06-23)
+
+<code>In Apache Spark 2.4.5 and earlier, a standalone resource manager's master may be configured to require authentication (spark.authenticate) via a shared secret. When enabled, however, a specially-crafted RPC to the master can succeed in starting an application's resources on the Spark cluster, even without the shared key. This can be leveraged to execute shell commands on the host machine. This does not affect Spark clusters using other resource managers (YARN, Mesos, etc).
+</code>
+
+- [XiaoShaYu617/CVE-2020-9480](https://github.com/XiaoShaYu617/CVE-2020-9480)
 
 ### CVE-2020-9483 (2020-06-30)
 
@@ -43821,7 +43849,6 @@
 - [Unix13/metasploitable2](https://github.com/Unix13/metasploitable2)
 - [cyberharsh/PHP_CVE-2012-1823](https://github.com/cyberharsh/PHP_CVE-2012-1823)
 - [0xl0k1/CVE-2012-1823](https://github.com/0xl0k1/CVE-2012-1823)
-- [Fatalitysec/CVE-2012-1823](https://github.com/Fatalitysec/CVE-2012-1823)
 
 ### CVE-2012-1870 (2012-07-10)
 
