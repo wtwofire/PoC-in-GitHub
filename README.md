@@ -794,6 +794,7 @@
 - [zgimszhd61/CVE-2024-4879](https://github.com/zgimszhd61/CVE-2024-4879)
 - [ShadowByte1/CVE-2024-4879](https://github.com/ShadowByte1/CVE-2024-4879)
 - [Praison001/CVE-2024-4879-ServiceNow](https://github.com/Praison001/CVE-2024-4879-ServiceNow)
+- [NoTsPepino/CVE-2024-4879-CVE-2024-5217-ServiceNow-RCE-Scanning](https://github.com/NoTsPepino/CVE-2024-4879-CVE-2024-5217-ServiceNow-RCE-Scanning)
 
 ### CVE-2024-4883 (2024-06-25)
 
@@ -1114,6 +1115,7 @@
 
 - [nnotwen/Script-For-CVE-2024-20666](https://github.com/nnotwen/Script-For-CVE-2024-20666)
 - [invaderslabs/CVE-2024-20666](https://github.com/invaderslabs/CVE-2024-20666)
+- [HYZ3K/CVE-2024-20666](https://github.com/HYZ3K/CVE-2024-20666)
 
 ### CVE-2024-20696 (2024-01-09)
 
@@ -1917,7 +1919,7 @@
 - [xffsec/CVE-2024-24590-ClearML-RCE-Exploit](https://github.com/xffsec/CVE-2024-24590-ClearML-RCE-Exploit)
 - [diegogarciayala/CVE-2024-24590-ClearML-RCE-CMD-POC](https://github.com/diegogarciayala/CVE-2024-24590-ClearML-RCE-CMD-POC)
 - [junnythemarksman/CVE-2024-24590](https://github.com/junnythemarksman/CVE-2024-24590)
-- [sviim/ClearML-CVE-2024-24590](https://github.com/sviim/ClearML-CVE-2024-24590)
+- [sviim/ClearML-CVE-2024-24590-RCE](https://github.com/sviim/ClearML-CVE-2024-24590-RCE)
 
 ### CVE-2024-24760 (2024-02-02)
 
@@ -1992,6 +1994,7 @@
 - [SalehLardhi/CVE-2024-24919](https://github.com/SalehLardhi/CVE-2024-24919)
 - [ShadowByte1/CVE-2024-24919](https://github.com/ShadowByte1/CVE-2024-24919)
 - [H3KEY/CVE-2024-24919](https://github.com/H3KEY/CVE-2024-24919)
+- [Jutrm/cve-2024-24919](https://github.com/Jutrm/cve-2024-24919)
 
 ### CVE-2024-25092 (2024-06-09)
 
@@ -2162,7 +2165,6 @@
 
 - [varwara/CVE-2024-26229](https://github.com/varwara/CVE-2024-26229)
 - [RalfHacker/CVE-2024-26229-exploit](https://github.com/RalfHacker/CVE-2024-26229-exploit)
-- [0XJ175/DRive](https://github.com/0XJ175/DRive)
 - [apkc/CVE-2024-26229-BOF](https://github.com/apkc/CVE-2024-26229-BOF)
 - [team-MineDEV/CVE-2024-26229](https://github.com/team-MineDEV/CVE-2024-26229)
 
@@ -2685,6 +2687,7 @@
 - [NextGenPentesters/CVE-2024-30088-](https://github.com/NextGenPentesters/CVE-2024-30088-)
 - [Zombie-Kaiser/CVE-2024-30088-Windows-poc](https://github.com/Zombie-Kaiser/CVE-2024-30088-Windows-poc)
 - [exploits-forsale/collateral-damage](https://github.com/exploits-forsale/collateral-damage)
+- [Admin9961/CVE-2024-30088](https://github.com/Admin9961/CVE-2024-30088)
 
 ### CVE-2024-30212 (2024-05-28)
 
@@ -2899,6 +2902,8 @@
 - [sysonlai/CVE-2024-32002-hook](https://github.com/sysonlai/CVE-2024-32002-hook)
 - [TSY244/CVE-2024-32002-git-rce-father-poc](https://github.com/TSY244/CVE-2024-32002-git-rce-father-poc)
 - [TSY244/CVE-2024-32002-git-rce](https://github.com/TSY244/CVE-2024-32002-git-rce)
+- [blackninja23/CVE-2024-32002](https://github.com/blackninja23/CVE-2024-32002)
+- [daemon-reconfig/CVE-2024-32002](https://github.com/daemon-reconfig/CVE-2024-32002)
 
 ### CVE-2024-32004 (2024-05-14)
 
@@ -3244,6 +3249,13 @@
 </code>
 
 - [silent6trinity/CVE-2024-34582](https://github.com/silent6trinity/CVE-2024-34582)
+
+### CVE-2024-34693 (2024-06-20)
+
+<code>Improper Input Validation vulnerability in Apache Superset, allows for an authenticated attacker to create a MariaDB connection with local_infile enabled. If both the MariaDB server (off by default) and the local mysql client on the web server are set to allow for local infile, it's possible for the attacker to execute a specific MySQL/MariaDB SQL command that is able to read files from the server and insert their content on a MariaDB database table.This issue affects Apache Superset: before 3.1.3 and version 4.0.0\n\nUsers are recommended to upgrade to version 4.0.1 or 3.1.3, which fixes the issue.\n\n
+</code>
+
+- [mbadanoiu/CVE-2024-34693](https://github.com/mbadanoiu/CVE-2024-34693)
 
 ### CVE-2024-34716 (2024-05-14)
 
@@ -3698,6 +3710,10 @@
 </code>
 
 - [vvpoglazov/cve-2024-41110-checker](https://github.com/vvpoglazov/cve-2024-41110-checker)
+- [PauloParoPP/CVE-2024-41110-SCAN](https://github.com/PauloParoPP/CVE-2024-41110-SCAN)
+
+### CVE-2024-41640
+- [alemusix/CVE-2024-41640](https://github.com/alemusix/CVE-2024-41640)
 
 ### CVE-2024-41662 (2024-07-24)
 
@@ -4431,7 +4447,7 @@
 <code>In PHP version 8.0.* before 8.0.30,  8.1.* before 8.1.22, and 8.2.* before 8.2.8, when loading phar file, while reading PHAR directory entries, insufficient length checking may lead to a stack buffer overflow, leading potentially to memory corruption or RCE. \n\n
 </code>
 
-- [Nuki2u/CVE-2023-3824-PHP-to-RCE-LockBit-LEAK](https://github.com/Nuki2u/CVE-2023-3824-PHP-to-RCE-LockBit-LEAK)
+- [o2vi1te/CVE-2023-3824-PHP-to-RCE-LockBit-LEAK](https://github.com/o2vi1te/CVE-2023-3824-PHP-to-RCE-LockBit-LEAK)
 - [jhonnybonny/CVE-2023-3824](https://github.com/jhonnybonny/CVE-2023-3824)
 - [m1sn0w/CVE-2023-3824](https://github.com/m1sn0w/CVE-2023-3824)
 
@@ -5025,6 +5041,7 @@
 - [Chocapikk/CVE-2023-6553](https://github.com/Chocapikk/CVE-2023-6553)
 - [motikan2010/CVE-2023-6553-PoC](https://github.com/motikan2010/CVE-2023-6553-PoC)
 - [kiddenta/CVE-2023-6553](https://github.com/kiddenta/CVE-2023-6553)
+- [cc3305/CVE-2023-6553](https://github.com/cc3305/CVE-2023-6553)
 
 ### CVE-2023-6567 (2024-01-11)
 
@@ -7363,7 +7380,7 @@
 <code>In TeslaMate before 1.27.2, there is unauthorized access to port 4000 for remote viewing and operation of user data. After accessing the IP address for the TeslaMate instance, an attacker can switch the port to 3000 to enter Grafana for remote operations. At that time, the default username and password can be used to enter the Grafana management console without logging in, a related issue to CVE-2022-23126.
 </code>
 
-- [XC9409/CVE-2023-31634](https://github.com/XC9409/CVE-2023-31634)
+- [iSee857/CVE-2023-31634](https://github.com/iSee857/CVE-2023-31634)
 
 ### CVE-2023-31664 (2023-05-23)
 
@@ -9614,6 +9631,7 @@
 - [0xfalafel/CraftCMS_CVE-2023-41892](https://github.com/0xfalafel/CraftCMS_CVE-2023-41892)
 - [diegaccio/Craft-CMS-Exploit](https://github.com/diegaccio/Craft-CMS-Exploit)
 - [acesoyeo/CVE-2023-41892](https://github.com/acesoyeo/CVE-2023-41892)
+- [CERTologists/HTTP-Request-for-PHP-object-injection-attack-on-CVE-2023-41892](https://github.com/CERTologists/HTTP-Request-for-PHP-object-injection-attack-on-CVE-2023-41892)
 
 ### CVE-2023-41991 (2023-09-21)
 
@@ -21603,6 +21621,7 @@
 - [junnythemarksman/CVE-2021-31630](https://github.com/junnythemarksman/CVE-2021-31630)
 - [adibabdala123/cve-2021-31630](https://github.com/adibabdala123/cve-2021-31630)
 - [manuelsantosiglesias/CVE-2021-31630](https://github.com/manuelsantosiglesias/CVE-2021-31630)
+- [FlojBoj/CVE-2021-31630](https://github.com/FlojBoj/CVE-2021-31630)
 
 ### CVE-2021-31728 (2021-05-17)
 
@@ -22964,6 +22983,7 @@
 - [RedLeavesChilde/CVE-2021-40444](https://github.com/RedLeavesChilde/CVE-2021-40444)
 - [nvchungkma/CVE-2021-40444-Microsoft-Office-Word-Remote-Code-Execution-](https://github.com/nvchungkma/CVE-2021-40444-Microsoft-Office-Word-Remote-Code-Execution-)
 - [hqdat809/CVE-2021-40444](https://github.com/hqdat809/CVE-2021-40444)
+- [basim-ahmad/Follina-CVE-and-CVE-2021-40444](https://github.com/basim-ahmad/Follina-CVE-and-CVE-2021-40444)
 
 ### CVE-2021-40449 (2021-10-13)
 
@@ -24513,7 +24533,6 @@
 - [jxerome/log4shell](https://github.com/jxerome/log4shell)
 - [solitarysp/Log4j-CVE-2021-44228](https://github.com/solitarysp/Log4j-CVE-2021-44228)
 - [atlassion/log4j-exploit-builder](https://github.com/atlassion/log4j-exploit-builder)
-- [atlassion/RS4LOGJ-CVE-2021-44228](https://github.com/atlassion/RS4LOGJ-CVE-2021-44228)
 - [sdogancesur/log4j_github_repository](https://github.com/sdogancesur/log4j_github_repository)
 - [jrocia/Search-log4Jvuln-AppScanSTD](https://github.com/jrocia/Search-log4Jvuln-AppScanSTD)
 - [aajuvonen/log4stdin](https://github.com/aajuvonen/log4stdin)
@@ -24531,13 +24550,11 @@
 - [Jun-5heng/CVE-2021-44228](https://github.com/Jun-5heng/CVE-2021-44228)
 - [honypot/CVE-2021-44228](https://github.com/honypot/CVE-2021-44228)
 - [honypot/CVE-2021-44228-vuln-app](https://github.com/honypot/CVE-2021-44228-vuln-app)
-- [vulnerable-apps/log4shell-honeypot](https://github.com/vulnerable-apps/log4shell-honeypot)
 - [manishkanyal/log4j-scanner](https://github.com/manishkanyal/log4j-scanner)
 - [TPower2112/Writing-Sample-1](https://github.com/TPower2112/Writing-Sample-1)
 - [Willian-2-0-0-1/Log4j-Exploit-CVE-2021-44228](https://github.com/Willian-2-0-0-1/Log4j-Exploit-CVE-2021-44228)
 - [r3kind1e/Log4Shell-obfuscated-payloads-generator](https://github.com/r3kind1e/Log4Shell-obfuscated-payloads-generator)
 - [Phineas09/CVE-2021-44228](https://github.com/Phineas09/CVE-2021-44228)
-- [hassaanahmad813/log4j](https://github.com/hassaanahmad813/log4j)
 - [yuuki1967/CVE-2021-44228-Apache-Log4j-Rce](https://github.com/yuuki1967/CVE-2021-44228-Apache-Log4j-Rce)
 - [moshuum/tf-log4j-aws-poc](https://github.com/moshuum/tf-log4j-aws-poc)
 - [jaehnri/CVE-2021-44228](https://github.com/jaehnri/CVE-2021-44228)
@@ -24573,6 +24590,7 @@
 - [YangHyperData/LOGJ4_PocShell_CVE-2021-44228](https://github.com/YangHyperData/LOGJ4_PocShell_CVE-2021-44228)
 - [Hoanle396/CVE-2021-44228-demo](https://github.com/Hoanle396/CVE-2021-44228-demo)
 - [tadash10/Exploiting-CVE-2021-44228-Log4Shell-in-a-Banking-Environment](https://github.com/tadash10/Exploiting-CVE-2021-44228-Log4Shell-in-a-Banking-Environment)
+- [asd58584388/CVE-2021-44228](https://github.com/asd58584388/CVE-2021-44228)
 
 ### CVE-2021-44255 (2022-01-31)
 
@@ -24675,7 +24693,7 @@
 - [g1thub3r1st4/CVE-2021-44909](https://github.com/g1thub3r1st4/CVE-2021-44909)
 
 ### CVE-2021-44910
-- [dockererr/CVE-2021-44910_SpringBlade](https://github.com/dockererr/CVE-2021-44910_SpringBlade)
+- [dockern/CVE-2021-44910_SpringBlade](https://github.com/dockern/CVE-2021-44910_SpringBlade)
 
 ### CVE-2021-45007 (2022-02-20)
 
@@ -44254,6 +44272,13 @@
 
 
 ## 2010
+### CVE-2010-0219 (2010-10-18)
+
+<code>Apache Axis2, as used in dswsbobje.war in SAP BusinessObjects Enterprise XI 3.2, CA ARCserve D2D r15, and other products, has a default password of axis2 for the admin account, which makes it easier for remote attackers to execute arbitrary code by uploading a crafted web service.
+</code>
+
+- [veritas-rt/CVE-2010-0219](https://github.com/veritas-rt/CVE-2010-0219)
+
 ### CVE-2010-0232 (2010-01-21)
 
 <code>The kernel in Microsoft Windows NT 3.1 through Windows 7, including Windows 2000 SP4, Windows XP SP2 and SP3, Windows Server 2003 SP2, Windows Vista Gold, SP1, and SP2, and Windows Server 2008 Gold and SP2, when access to 16-bit applications is enabled on a 32-bit x86 platform, does not properly validate certain BIOS calls, which allows local users to gain privileges by crafting a VDM_TIB data structure in the Thread Environment Block (TEB), and then calling the NtVdmControl function to start the Windows Virtual DOS Machine (aka NTVDM) subsystem, leading to improperly handled exceptions involving the #GP trap handler (nt!KiTrap0D), aka &quot;Windows Kernel Exception Handler Vulnerability.&quot;
@@ -45147,7 +45172,7 @@
 <code>Directory traversal vulnerability in UnZip 5.50 allows attackers to overwrite arbitrary files via invalid characters between two . (dot) characters, which are filtered and result in a &quot;..&quot; sequence.
 </code>
 
-- [theseann/cve-2003-0282](https://github.com/theseann/cve-2003-0282)
+- [silasol/cve-2003-0282](https://github.com/silasol/cve-2003-0282)
 
 ### CVE-2003-0358 (2003-05-30)
 
